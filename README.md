@@ -4,11 +4,13 @@ ____
 
 ``` 
 The typgraf handle such case
+```
 ..* handle quotes
 ..* replace hypen with dash such case like : это,вот,Я-
 ⋅⋅* Unordered sub-list.
+⋅⋅⋅(This
 
-```
+
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
