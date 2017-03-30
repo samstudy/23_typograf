@@ -1,8 +1,9 @@
 # Typograf Service
 ____
 > **The service  had been done for typograf purpose**
-##Requirement
-Need to install usefull module **jinja2** and **markdown**for do it run command:
+
+### Requirement
+Need to install flask:
 ```
 pip install -r requirement.
 ```
@@ -10,10 +11,8 @@ pip install -r requirement.
 On console run the script :
 ```
 python3.5 server.py 
-
-then open on browser: localhost:5000
 ```
-
+then open on browser: localhost:5000
 ``` 
 The typgraf handle such case:
 ```
