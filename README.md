@@ -3,12 +3,13 @@ ____
 > **The service  had been done for typograf purpose**
 
 ``` 
-The typgraf handle such case
-
+The typgraf handle such case:
 ```
-..* handle quotes
-..* replace hypen with dash such case like : это,вот,Я-
-
+*   handle quotes
+*   replace hypen with dash such case like : это,вот,Я-
+*   replace hyphen with n-dash in numbers example:+7(903)-123-45-67
+*   join words with digit by nbsp
+*   remove extra spaces
 
 
 # Project Goals
