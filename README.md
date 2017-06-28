@@ -1,7 +1,7 @@
 # Typograf Service
-____
-> **The service  had been done for typograf purpose**
-
+```
+The service has been done for russian language typograf purpose
+```
 ### Requirement
 Need to install flask:
 ```
@@ -12,7 +12,7 @@ On console run the script :
 ```
 python3.5 server.py 
 ```
-then open on browser: localhost:5000
+then open a browser and go to [This](localhost:5000) link
 ``` 
 The typgraf handle such case:
 ```
