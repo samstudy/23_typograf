@@ -12,7 +12,7 @@ On console run the script :
 ```
 python3.5 server.py 
 ```
-then open a browser and go to [This](localhost:5000) link
+then open a browser and go to [This](http://localhost:5000) link
 ``` 
 The typgraf handle such case:
 ```
