@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request
-from typo import typo
+from flask import Flask, render_template, request, Response
+from typograf import typograph
 
 app = Flask(__name__)
 
@@ -11,8 +11,10 @@ def form():
 
 @app.route('/typograf', methods=['POST'])
 def typograf():
-    text = typo(request.form['text'])
-    return text
+    text = typograph(request.form['text'])
+    return Response(json.dumps(text, indent=4),
+                    content_type='application/json; charset=utf-8')
+    
 
 if __name__ == "__main__":
     app.run(debug=True)
