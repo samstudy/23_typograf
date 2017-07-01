@@ -5,17 +5,17 @@ The service has been done for russian language typograf purpose
 ### Requirement
 Need to install flask:
 ```
-pip install -r requirement.
+pip install -r requirements.txt
 ```
 ### Usage:
 On console run the script :
 ```
 python3.5 server.py 
 ```
-then open a browser and go to [This](http://localhost:5000) link
+then open a browser and go to [http://localhost:5000](http://localhost:5000) link
 ``` 
 The typgraf handle such case:
-```
+
 *   handle quotes
 *   replace hypen with dash such case like : это,вот,Я-
 *   replace hyphen with n-dash in numbers example:+7(903)-123-45-67
